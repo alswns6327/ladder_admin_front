@@ -112,32 +112,16 @@ body {
   min-width: 400px;
   min-height: 400px;
 }
-@media (min-width: 400px) {
+
+@media (max-width: 1799px) {
   #root {
-    width: 400px;
+    width: 100vw;
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1800px) {
   #root {
-    width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  #root {
-    width: 768px;
-  }
-}
-@media (min-width: 992px) {
-  #root {
-    width: 992px;
-  }
-}
-
-@media (min-width: 1300px) {
-  #root {
-    width: 1300px;
+    width: 1800px;
   }
 }
 ol,
